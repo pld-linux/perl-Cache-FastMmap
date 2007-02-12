@@ -6,7 +6,7 @@
 %define	pdir	Cache
 %define	pnam	FastMmap
 Summary:	Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interprocess cache
-Summary(pl):	Cache::FastMmap - u¿ycie mmapowanego pliku jako wspó³dzielonej pamiêci podrêcznej
+Summary(pl.UTF-8):   Cache::FastMmap - uÅ¼ycie mmapowanego pliku jako wspÃ³Å‚dzielonej pamiÄ™ci podrÄ™cznej
 Name:		perl-Cache-FastMmap
 Version:	1.09
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Uses an mmap'ed file to act as a shared memory interprocess cache.
 
-%description -l pl
-Ten modu³ pozwala na u¿ywanie mmapowanego pliku jako pamiêci
-podrêcznej wspó³dzielonej miêdzy procesami.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na uÅ¼ywanie mmapowanego pliku jako pamiÄ™ci
+podrÄ™cznej wspÃ³Å‚dzielonej miÄ™dzy procesami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
