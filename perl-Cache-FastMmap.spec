@@ -8,13 +8,13 @@
 Summary:	Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interprocess cache
 Summary(pl.UTF-8):	Cache::FastMmap - użycie mmapowanego pliku jako współdzielonej pamięci podręcznej
 Name:		perl-Cache-FastMmap
-Version:	1.25
+Version:	1.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a60706465330cbe8be410a0b37dd95b1
+# Source0-md5:	8bfb007d971549d2f00a2de179608f89
 URL:		http://search.cpan.org/dist/Cache-FastMmap/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
