@@ -8,13 +8,13 @@
 Summary:	Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interprocess cache
 Summary(pl.UTF-8):	Cache::FastMmap - użycie mmapowanego pliku jako współdzielonej pamięci podręcznej
 Name:		perl-Cache-FastMmap
-Version:	1.36
+Version:	1.40
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d13b3b3a4b7784ecfc99f2c586985796
+# Source0-md5:	e0929ba556c629a43f5d65a2b6cb9a2f
 URL:		http://search.cpan.org/dist/Cache-FastMmap/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -52,9 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Cache/*.pm
-%{perl_vendorarch}/Cache/FastMmap
 %dir %{perl_vendorarch}/auto/Cache/FastMmap
-%dir %{perl_vendorarch}/auto/Cache/FastMmap/CImpl
-%{perl_vendorarch}/auto/Cache/FastMmap/CImpl/*.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/Cache/FastMmap/CImpl/*.so
+%{perl_vendorarch}/auto/Cache/FastMmap/FastMmap.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Cache/FastMmap/FastMmap.so
 %{_mandir}/man3/*
