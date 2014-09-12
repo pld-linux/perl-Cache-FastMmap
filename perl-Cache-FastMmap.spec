@@ -53,6 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Cache/*.pm
 %dir %{perl_vendorarch}/auto/Cache/FastMmap
-%{perl_vendorarch}/auto/Cache/FastMmap/FastMmap.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Cache/FastMmap/FastMmap.so
 %{_mandir}/man3/*
