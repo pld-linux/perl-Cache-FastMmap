@@ -4,7 +4,6 @@
 
 %define		pdir	Cache
 %define		pnam	FastMmap
-%include	/usr/lib/rpm/macros.perl
 Summary:	Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interprocess cache
 Summary(pl.UTF-8):	Cache::FastMmap - użycie mmapowanego pliku jako współdzielonej pamięci podręcznej
 Name:		perl-Cache-FastMmap
