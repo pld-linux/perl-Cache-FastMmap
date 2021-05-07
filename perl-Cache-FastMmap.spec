@@ -8,7 +8,7 @@ Summary:	Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interp
 Summary(pl.UTF-8):	Cache::FastMmap - użycie mmapowanego pliku jako współdzielonej pamięci podręcznej
 Name:		perl-Cache-FastMmap
 Version:	1.40
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
